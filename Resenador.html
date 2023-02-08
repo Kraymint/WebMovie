@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulario De Contacto</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link  href="css/bootstrap-theme.min.css"rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+		<header>
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<div class="navbar-header">
+					</div>
+					<u1 class="nav navbar-nav">
+		
+		
+		
+						<li ><a href="./">INICIO</a></li>
+						<li><a href="Comedia.html">COMEDIA</a></li>
+						<li><a href="Terror.html">TERROR</a></li>
+						<li><a href="rom.html">ROMANCE</a></li>
+						<li class="active "><a href="Resenador.html">PEDIR RESENA</a></li>
+					</u1>
+					
+		
+			</nav>
+		
+		</header>
+	</head>
+	<body>
+		<div class="form">
+			<form action="conexion.php" method="POST">
+				<p>Nombre</p>
+				<label for="nombre">Su nombre</label>
+				<br>
+				<input type="text" name="nombre" placeholder="Nombre" required>
+				<p>Correo</p>
+				<label for="correo">Direccion De Correo</label>
+				<br>
+				<input type="email" name="correo" placeholder="alguien@algo.com" required>
+				<p>Mensaje</p>
+				<label for="mensaje">Su Mensaje</label>
+				<br>
+				<textarea name="mensaje" placeholder="Mensaje" required></textarea>
+				<br>
+				<br>
+				<input type="submit" value="Enviar">
+			</form>
+		</div>
+	</body>
+</html>

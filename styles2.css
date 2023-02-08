@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+   }
+
+.contenedor{
+    background: url(images/peliscome.png)center;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+    background-size: cover;
+    height: 100vh;
+
+}
+.izquierda{
+ display: flex;
+ text-align: center;
+ place-items: center;
+   }
+   .izquierda h1{ color: black;font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+   }
+.izquierda h1{
+    color: black;font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+}
+.izquierda p{
+    background-color: whitesmoke;
+    width: 420px;
+    height: 150px;
+    opacity: 72%;
+ 
+    text-align: center;
+    color: black;
+    
+
+}
+
+
+
+.derecha{ 
+    display: flex;
+    text-align: center;
+    place-items:center
+
+}
+.derecha h1{
+    color: black;font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+
+}
+.derecha p{
+   background-color: whitesmoke;
+   width: 420px;
+   height: 150px;
+   opacity: 72%;
+
+   text-align: center;
+   color: black;
+   
+   
+}
+.contenedor1{
+    background: url(images/pelisterror.jpg)center;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+    background-size: cover;
+    height: 100vh;
+
+}
+.derecha1 h1{
+    color: white;font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+
+}
+.derecha1{ 
+    display: flex;
+    text-align: center;
+    place-items:center
+
+}
+.derecha1 p{
+    background-color: whitesmoke;
+    width: 420px;
+    height: 150px;
+    opacity: 72%;
+ 
+    text-align: center;
+    color: black;
+    
+    
+ }
+ .izquierda1{
+    display: flex;
+    text-align: center;
+    place-items: center;
+      }
+    .izquierda1 h1{ color: black;font-size: 40px;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       text-align: left;
+      }
+   .izquierda1 h1{
+       color: white;font-size: 40px;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       text-align: left;
+   }
+   .izquierda1 p{
+       background-color: whitesmoke;
+       width: 420px;
+       height: 150px;
+       opacity: 72%;
+    
+       text-align: center;
+       color: black;
+       
+   
+   }
+   .contenedor2{
+    background: url(images/pelisromance.jpg)center;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+    background-size: cover;
+    height: 100vh;
+
+}
+.derecha2 h1{
+    color: red;font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.derecha2{ 
+    display: flex;
+    text-align: center;
+    place-items:center
+
+}
+.derecha2 p{
+    background-color: whitesmoke;
+    width: 420px;
+    height: 150px;
+    opacity: 60%;
+  
+    text-align: center;
+    color: black;
+    
+    
+ }
+ .izquierda2{
+    display: flex;
+    text-align: center;
+    place-items: center;
+      }
+    .izquierda1 h1{ color: black;font-size: 40px;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       text-align: left;
+      }
+   .izquierda2 h1{
+       color:red;font-size: 40px;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       text-align: left;
+       margin-top: 20%;
+   }
+   .izquierda2 p{
+       background-color: whitesmoke;
+       width: 450px;
+       height: 150px;
+       opacity: 65%;
+    
+       text-align: center;
+       color: black;
+       
+   
+   }
+   
+ 
